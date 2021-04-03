@@ -1,0 +1,162 @@
+#quiz {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    width: 500px;
+    height: 300px;
+    border: 10px groove slateblue;
+}
+
+#linkToHS {
+    color: slateblue;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+#startB {
+    background-color: slateblue;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+}
+
+#questionsDiv {
+    margin: 20px;
+    text-align: center;
+}
+
+#currentTime {
+    float: right;
+}
+
+#firstLine {
+    font-size: 25px;
+    font-weight: bolder;
+    color: slateblue;
+    margin-bottom: 15px;
+}
+
+#secondLine {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#highscoreLine {
+    font-weight: bolder;
+}
+
+#tryAgain {
+    background-color: slateblue;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    left: 40%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+#clear {
+    background-color: slateblue;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    right: 30%;
+    text-align: center;
+}
+
+button {
+    border-radius: 8px;
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+
+#Submit {
+    background-color: slateblue;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+}
+
+label {
+    margin-right: 10px;
+}
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    background-color: slateblue;
+    margin-top: 10px;
+    padding: 5px 15px;
+    width: 80%;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+}
+
+
+@media screen and (max-width: 786px) {
+
+body {
+    max-width: 786px;
+}
+
+#quiz {
+position: absolute;
+left: 20%;
+}
+
+a {
+margin-left: 20%;
+}
+
+#tryAgain {
+    
+    position: relative;
+    left: 55%;
+}
+
+#clear {
+    
+    position: relative;
+    right: 5%;
+    
+}
+}
+
+
+
+@media screen and (max-width: 640px) {
+
+body {
+    min-width: 640px;
+}
+
+#quiz {
+position: absolute;
+left: 10%;
+}
+
+a {
+  margin-left: 10%;
+}
+}
